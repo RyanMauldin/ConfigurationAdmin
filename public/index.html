@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>Configuration Admin</title>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but Configuration Admin doesn't work properly without JavaScript enabled. Please enable it to
+      continue.</strong>
+  </noscript>
+
+  <div id="app">
+    <div class="header-container">
+      <div class="logo-container">
+        <img src=".\assets\ConfigurationAdminLogo.png" alt="Config Admin" class="header-logo-img hide-sm hide-md" />
+      </div>
+      <div class="top-nav-container">
+        <div class="nav-link">
+          <router-link to="/">Home</router-link>
+        </div>
+        <div class="nav-spacer">
+          <span>|</span>
+        </div>
+        <div class="nav-link">
+          <router-link to="/routes">Route XML Generator</router-link>
+        </div>
+        <div class="nav-spacer">
+          <span>|</span>
+        </div>
+        <div class="nav-link">
+          <router-link to="/about">About</router-link>
+        </div>
+      </div>
+    </div>
+    <div class="app-container">
+      <!-- built files will be auto injected -->
+      <router-view />
+    </div>
+    <div class="footer-container"></div>
+  </div>
+</body>
+
+</html>
