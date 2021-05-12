@@ -67,7 +67,7 @@
     "os-locale": "^4.0.0",
     "popper.js": "^1.15.0",
     "portal-vue": "^2.1.4",
-    "postcss": "^7.0.17",
+    "postcss": "^8.2.10",
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
     "precss": "^4.0.0",
