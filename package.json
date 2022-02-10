@@ -63,7 +63,7 @@
     "mocha": "^5.2.0",
     "mocha-webpack": "^2.0.0-beta.0",
     "mutationobserver-shim": "^0.3.3",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "os-locale": "^4.0.0",
     "popper.js": "^1.15.0",
     "portal-vue": "^2.1.4",
