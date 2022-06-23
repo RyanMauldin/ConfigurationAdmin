@@ -50,7 +50,7 @@
     "css-loader": "^3.0.0",
     "decamelize": "^3.2.0",
     "eslint": "^6.0.1",
-    "jsdom": "^15.1.1",
+    "jsdom": "^16.5.0",
     "jsdom-global": "^3.0.2",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
